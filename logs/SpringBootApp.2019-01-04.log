@@ -1,0 +1,153 @@
+2019-01-04 10:56:34.538 [ INFO] 992 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 992 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 10:56:34.548 [DEBUG] 992 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 10:56:34.555 [ INFO] 992 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 10:56:35.937 [DEBUG] 992 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 10:56:35.953 [DEBUG] 992 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 10:56:35.978 [DEBUG] 992 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 10:56:35.983 [DEBUG] 992 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 10:56:35.986 [DEBUG] 992 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 10:56:39.638 [DEBUG] 992 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-04 10:56:39.638 [DEBUG] 992 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-04 10:56:40.069 [DEBUG] 992 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-04 10:56:40.153 [DEBUG] 992 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-04 10:56:40.751 [DEBUG] 992 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-04 10:56:41.033 [ INFO] 992 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 7.078 seconds (JVM running for 8.84)
+2019-01-04 10:57:14.208 [ERROR] 992 --- [http-nio-18080-exec-1] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 10:57:14.212 [ERROR] 992 --- [http-nio-18080-exec-1] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 10:57:14.213 [ INFO] 992 --- [http-nio-18080-exec-1] com.sunym.controller.RedisController     : resExpire=0
+2019-01-04 10:57:14.217 [ERROR] 992 --- [http-nio-18080-exec-1] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 10:58:11.533 [ INFO] 9364 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 9364 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 10:58:11.550 [DEBUG] 9364 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 10:58:11.555 [ INFO] 9364 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 10:58:13.170 [DEBUG] 9364 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 10:58:13.189 [DEBUG] 9364 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 10:58:13.203 [DEBUG] 9364 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 10:58:13.209 [DEBUG] 9364 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 10:58:13.210 [DEBUG] 9364 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 10:58:16.494 [DEBUG] 9364 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-04 10:58:16.496 [DEBUG] 9364 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-04 10:58:16.959 [DEBUG] 9364 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-04 10:58:17.072 [DEBUG] 9364 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-04 10:58:17.632 [DEBUG] 9364 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-04 10:58:17.957 [ INFO] 9364 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 7.175 seconds (JVM running for 8.24)
+2019-01-04 10:58:41.486 [ERROR] 9364 --- [http-nio-18080-exec-4] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 10:59:11.923 [ERROR] 9364 --- [http-nio-18080-exec-4] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 10:59:12.858 [ INFO] 9364 --- [http-nio-18080-exec-4] com.sunym.controller.RedisController     : resExpire=0
+2019-01-04 10:59:30.427 [ERROR] 9364 --- [http-nio-18080-exec-4] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 11:01:33.869 [ERROR] 9364 --- [http-nio-18080-exec-2] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 11:01:48.147 [ERROR] 9364 --- [http-nio-18080-exec-2] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 11:01:48.148 [ INFO] 9364 --- [http-nio-18080-exec-2] com.sunym.controller.RedisController     : resExpire=0
+2019-01-04 11:01:48.152 [ERROR] 9364 --- [http-nio-18080-exec-2] com.sunym.utils.RedisUtil                : Could not get a resource from the pool
+2019-01-04 11:02:56.365 [ INFO] 9044 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 9044 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 11:02:56.378 [DEBUG] 9044 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 11:02:56.381 [ INFO] 9044 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 11:02:57.646 [DEBUG] 9044 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 11:02:57.661 [DEBUG] 9044 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 11:02:57.669 [DEBUG] 9044 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 11:02:57.671 [DEBUG] 9044 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 11:02:57.671 [DEBUG] 9044 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 11:03:53.002 [ INFO] 1736 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 1736 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 11:03:53.011 [DEBUG] 1736 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 11:03:53.014 [ INFO] 1736 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 11:03:54.333 [DEBUG] 1736 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 11:03:54.349 [DEBUG] 1736 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 11:03:54.362 [DEBUG] 1736 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 11:03:54.365 [DEBUG] 1736 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 11:03:54.367 [DEBUG] 1736 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 11:04:01.415 [DEBUG] 1736 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-04 11:04:01.415 [DEBUG] 1736 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-04 11:04:01.859 [DEBUG] 1736 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-04 11:04:01.960 [DEBUG] 1736 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-04 11:04:02.556 [DEBUG] 1736 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-04 11:04:02.847 [ INFO] 1736 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 10.331 seconds (JVM running for 11.25)
+2019-01-04 11:04:21.557 [ INFO] 1736 --- [http-nio-18080-exec-2] com.sunym.controller.RedisController     : resExpire=1
+2019-01-04 11:04:21.560 [ INFO] 1736 --- [http-nio-18080-exec-2] com.sunym.utils.RedisUtil                : null
+2019-01-04 11:06:48.419 [ INFO] 9416 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 9416 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 11:06:48.439 [DEBUG] 9416 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 11:06:48.443 [ INFO] 9416 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 11:06:49.823 [DEBUG] 9416 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 11:06:49.839 [DEBUG] 9416 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 11:06:49.848 [DEBUG] 9416 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 11:06:49.850 [DEBUG] 9416 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 11:06:49.850 [DEBUG] 9416 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 11:06:53.161 [DEBUG] 9416 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-04 11:06:53.162 [DEBUG] 9416 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-04 11:06:53.602 [DEBUG] 9416 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-04 11:06:53.711 [DEBUG] 9416 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-04 11:06:54.295 [DEBUG] 9416 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-04 11:06:54.554 [ INFO] 9416 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 6.753 seconds (JVM running for 7.799)
+2019-01-04 11:07:00.156 [ INFO] 9416 --- [http-nio-18080-exec-1] com.sunym.controller.RedisController     : resExpire=1
+2019-01-04 11:07:00.160 [ INFO] 9416 --- [http-nio-18080-exec-1] com.sunym.utils.RedisUtil                : null
+2019-01-04 11:14:14.761 [ INFO] 7396 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 7396 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 11:14:14.773 [DEBUG] 7396 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 11:14:14.776 [ INFO] 7396 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 11:14:16.275 [DEBUG] 7396 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 11:14:16.304 [DEBUG] 7396 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 11:14:16.322 [DEBUG] 7396 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 11:14:16.340 [DEBUG] 7396 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 11:14:16.348 [DEBUG] 7396 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 11:14:19.978 [DEBUG] 7396 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-04 11:14:19.979 [DEBUG] 7396 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-04 11:14:20.378 [DEBUG] 7396 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-04 11:14:20.635 [DEBUG] 7396 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-04 11:14:21.385 [DEBUG] 7396 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-04 11:14:21.661 [ INFO] 7396 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 7.616 seconds (JVM running for 8.604)
+2019-01-04 11:14:37.355 [DEBUG] 7396 --- [http-nio-18080-exec-3] com.sunym.controller.RedisController     : Result Object = key1:value1
+2019-01-04 11:16:00.902 [DEBUG] 7396 --- [http-nio-18080-exec-2] com.sunym.controller.RedisController     : Result Object = Redis保存数据= key1:value1
+2019-01-04 11:16:55.076 [ INFO] 7816 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 7816 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 11:16:55.086 [DEBUG] 7816 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 11:16:55.090 [ INFO] 7816 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 11:16:56.527 [DEBUG] 7816 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 11:16:56.539 [DEBUG] 7816 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 11:16:56.548 [DEBUG] 7816 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 11:16:56.549 [DEBUG] 7816 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 11:16:56.550 [DEBUG] 7816 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 11:16:59.699 [DEBUG] 7816 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-04 11:16:59.700 [DEBUG] 7816 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-04 11:17:00.241 [DEBUG] 7816 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-04 11:17:00.385 [DEBUG] 7816 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-04 11:17:01.002 [DEBUG] 7816 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-04 11:17:01.327 [ INFO] 7816 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 6.769 seconds (JVM running for 7.861)
+2019-01-04 11:17:14.433 [ INFO] 7816 --- [http-nio-18080-exec-1] com.sunym.utils.RedisUtil                : value1
+2019-01-04 11:17:14.435 [DEBUG] 7816 --- [http-nio-18080-exec-1] com.sunym.controller.RedisController     : Result Object = Redis获取数据= key1:value1
+2019-01-04 11:26:07.921 [ INFO] 2576 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 2576 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 11:26:07.930 [DEBUG] 2576 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 11:26:07.933 [ INFO] 2576 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 11:26:09.248 [DEBUG] 2576 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 11:26:09.259 [DEBUG] 2576 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 11:26:09.269 [DEBUG] 2576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 11:26:09.270 [DEBUG] 2576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 11:26:09.270 [DEBUG] 2576 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 11:26:12.364 [DEBUG] 2576 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-04 11:26:12.365 [DEBUG] 2576 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-04 11:26:12.886 [DEBUG] 2576 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-04 11:26:12.966 [DEBUG] 2576 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-04 11:26:13.519 [DEBUG] 2576 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-04 11:26:13.808 [ INFO] 2576 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 6.382 seconds (JVM running for 7.262)
+2019-01-04 11:26:35.576 [ERROR] 2576 --- [http-nio-18080-exec-1] com.sunym.utils.RedisUtil                : WRONGTYPE Operation against a key holding the wrong kind of value
+2019-01-04 11:26:35.578 [DEBUG] 2576 --- [http-nio-18080-exec-1] com.sunym.controller.RedisController     : Result Object = Redis保存数据(hmset) = key1:value1
+2019-01-04 11:36:42.176 [ERROR] 2576 --- [http-nio-18080-exec-5] com.sunym.utils.RedisUtil                : WRONGTYPE Operation against a key holding the wrong kind of value
+2019-01-04 11:36:42.177 [DEBUG] 2576 --- [http-nio-18080-exec-5] com.sunym.controller.RedisController     : Result Object = Redis保存数据(hmset) = key1:value1, result = [null]
+2019-01-04 11:37:34.057 [ERROR] 2576 --- [http-nio-18080-exec-6] com.sunym.utils.RedisUtil                : WRONGTYPE Operation against a key holding the wrong kind of value
+2019-01-04 11:37:34.058 [DEBUG] 2576 --- [http-nio-18080-exec-6] com.sunym.controller.RedisController     : Result Object = Redis保存数据(hmset) = key1:value1, result = [WRONGTYPE Operation against a key holding the wrong kind of value]
+2019-01-04 11:38:21.302 [ERROR] 2576 --- [http-nio-18080-exec-7] com.sunym.utils.RedisUtil                : WRONGTYPE Operation against a key holding the wrong kind of value
+2019-01-04 11:38:21.303 [DEBUG] 2576 --- [http-nio-18080-exec-7] com.sunym.controller.RedisController     : Result Object = Redis保存数据(hmset) = key1:value1, result = [WRONGTYPE Operation against a key holding the wrong kind of value], result = [WRONGTYPE Operation against a key holding the wrong kind of value]
+2019-01-04 11:38:44.485 [DEBUG] 2576 --- [http-nio-18080-exec-8] com.sunym.controller.RedisController     : Result Object = Redis保存数据(hmset) = key2:value1, result = [OK], result = [OK]
+2019-01-04 11:40:27.910 [ INFO] 7284 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 7284 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-04 11:40:27.920 [DEBUG] 7284 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-04 11:40:27.923 [ INFO] 7284 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-04 11:40:29.172 [DEBUG] 7284 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-04 11:40:29.188 [DEBUG] 7284 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-04 11:40:29.198 [DEBUG] 7284 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-04 11:40:29.199 [DEBUG] 7284 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-04 11:40:29.200 [DEBUG] 7284 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-04 11:40:32.176 [DEBUG] 7284 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-04 11:40:32.177 [DEBUG] 7284 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-04 11:40:32.626 [DEBUG] 7284 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-04 11:40:32.774 [DEBUG] 7284 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-04 11:40:33.534 [DEBUG] 7284 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-04 11:40:33.805 [ INFO] 7284 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 6.381 seconds (JVM running for 7.244)
+2019-01-04 11:41:16.747 [ERROR] 7284 --- [http-nio-18080-exec-1] com.sunym.utils.RedisUtil                : WRONGTYPE Operation against a key holding the wrong kind of value
+2019-01-04 11:41:16.748 [DEBUG] 7284 --- [http-nio-18080-exec-1] com.sunym.controller.RedisController     : Result Object = Redis保存数据(hmset) = key1:value1, result = [WRONGTYPE Operation against a key holding the wrong kind of value], result = [WRONGTYPE Operation against a key holding the wrong kind of value]
+2019-01-04 11:41:28.346 [DEBUG] 7284 --- [http-nio-18080-exec-4] com.sunym.controller.RedisController     : Result Object = Redis保存数据(hmset) = key1:value1, result = [OK], result = [OK]
+2019-01-04 11:41:47.415 [DEBUG] 7284 --- [http-nio-18080-exec-5] com.sunym.controller.RedisController     : Result Object = Redis保存数据(hmset) = key1:value2, result = [OK], result = [OK]

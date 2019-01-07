@@ -1,0 +1,43 @@
+2019-01-03 18:36:21.368 [ INFO] 8920 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 8920 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-03 18:36:21.379 [DEBUG] 8920 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-03 18:36:21.383 [ INFO] 8920 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-03 18:36:22.983 [DEBUG] 8920 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-03 18:36:23.149 [DEBUG] 8920 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-03 18:36:23.160 [DEBUG] 8920 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-03 18:36:23.161 [DEBUG] 8920 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-03 18:36:23.162 [DEBUG] 8920 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-03 18:36:26.144 [ INFO] 8920 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-03 18:36:26.145 [ INFO] 8920 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-03 18:36:26.185 [ WARN] 8920 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jedisCache': Unsatisfied dependency expressed through field 'serializer'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.core.serializer.Serializer<?>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-01-03 18:36:26.539 [ERROR] 8920 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field serializer in com.sunym.config.JedisCache required a bean of type 'org.springframework.core.serializer.Serializer' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.core.serializer.Serializer' in your configuration.
+
+2019-01-03 18:36:54.699 [ INFO] 6132 --- [main] com.sunym.SpringBootApp                  : Starting SpringBootApp on LAPTOP-1C2EREA1 with PID 6132 (D:\Work\workspace\SprintBootApp\target\classes started by sunyongmeng in D:\Work\workspace\SprintBootApp)
+2019-01-03 18:36:54.707 [DEBUG] 6132 --- [main] com.sunym.SpringBootApp                  : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2019-01-03 18:36:54.713 [ INFO] 6132 --- [main] com.sunym.SpringBootApp                  : No active profile set, falling back to default profiles: default
+2019-01-03 18:36:56.198 [DEBUG] 6132 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Searching for mappers annotated with @Mapper
+2019-01-03 18:36:56.211 [DEBUG] 6132 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : Using auto-configuration base package 'com.sunym'
+2019-01-03 18:36:56.220 [DEBUG] 6132 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\Work\workspace\SprintBootApp\target\classes\com\sunym\mapper\UserMapper.class]
+2019-01-03 18:36:56.222 [DEBUG] 6132 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.sunym.mapper.UserMapper' mapperInterface
+2019-01-03 18:36:56.222 [DEBUG] 6132 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2019-01-03 18:36:59.752 [ INFO] 6132 --- [main] com.sunym.config.JedisConfig             : JedisPool注入成功！
+2019-01-03 18:36:59.752 [ INFO] 6132 --- [main] com.sunym.config.JedisConfig             : redis地址：127.0.0.1:6379
+2019-01-03 18:37:00.174 [DEBUG] 6132 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Scanned package: 'com.sunym.model' for aliases
+2019-01-03 18:37:00.280 [DEBUG] 6132 --- [main] o.mybatis.spring.SqlSessionFactoryBean   : Parsed mapper file: 'file [D:\Work\workspace\SprintBootApp\target\classes\mapper\UserMapper.xml]'
+2019-01-03 18:37:00.795 [DEBUG] 6132 --- [main] o.m.s.b.a.MybatisAutoConfiguration       : No org.mybatis.spring.mapper.MapperFactoryBean found.
+2019-01-03 18:37:01.133 [ INFO] 6132 --- [main] com.sunym.SpringBootApp                  : Started SpringBootApp in 6.924 seconds (JVM running for 7.936)
