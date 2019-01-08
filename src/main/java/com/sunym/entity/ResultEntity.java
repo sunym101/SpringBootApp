@@ -1,5 +1,7 @@
 package com.sunym.entity;
 
+import com.alibaba.fastjson.JSONObject;
+
 public class ResultEntity {
 
 	private String result_code;
@@ -44,5 +46,9 @@ public class ResultEntity {
 
 	public void setResult_info(Object result_info) {
 		this.result_info = result_info;
+	}
+	
+	public String toJson() {
+		return JSONObject.toJSONString(this, true);
 	}
 }
